@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Images/background.jpg);
+   background-position: center; 
+   background-size: cover;
+   padding-left: 8%;
+   padding-right: 8%;
+   box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 15px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card {
+    width: 250px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.card1 {
+    background-image: url(Images/brandon.jpeg);
+    text-shadow: 0 0 5px #999;
+}
+
+.card2 {
+    background-image: url(Images/austin.jpeg);
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card3 {
+    background-image: url(Images/luke.jpeg);
+    text-shadow: 0 0 5px #999;
+}
+
+.card4 {
+    background-image: url(Images/Barberfurniture-classic-black1.jpg);
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.instacard {
+    background-image: url(Images/Screenshot\ \(525\).png);
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    width: 450px;
+    height: 540px;
+    font-size: 40px;
+}
+
+.price1 {
+    background-image: url(Images/unnamed.jpg);
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    width: 350px;
+    height: 420px;
+    font-size: 20px;
+}
+
+.price2 {
+    background-image: url(Images/unnamed\ \(1\).jpg);
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    width: 350px;
+    height: 420px;
+    font-size: 20px;
+}
+
+.cut1 {
+    background-image: url(Images/unnamed\(2\).jpg);
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.cut2 {
+    background-image: url(Images/unnamed3.jpg);
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.cut3 {
+    background-image: url(Images/unnamed4.jpg);
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.cut4 {
+    background-image: url(Images/unnamed5.jpg);
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
